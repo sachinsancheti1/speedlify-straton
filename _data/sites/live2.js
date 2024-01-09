@@ -4,7 +4,7 @@ module.exports = {
 	skip: !process.env.CONTEXT,
 	options: {
 		freshChrome: "site",
-		frequency: 1, // (in minutes)
+		frequency: 60, // (in minutes)
 	},
 	urls: [
 		"https://www.stratongroup.com/contact-us.html",

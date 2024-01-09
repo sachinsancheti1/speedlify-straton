@@ -4,7 +4,7 @@ module.exports = {
 	skip: !process.env.CONTEXT,
 	options: {
 		freshChrome: "site",
-		frequency: 1, // (in minutes)
+		frequency: 60, // (in minutes)
 	},
 	urls: [
 		"https://dev.stratongroup-02.pages.dev/blog/things-you-should-know-before-building-exterior-wall-cladding.html",
